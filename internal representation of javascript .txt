@@ -1,0 +1,16 @@
+About object and its internal representation in JavaScript 
+      Objects in JavaScript: A Brief Overview
+              JavaScript objects are fundamental data structures that serve as building blocks for modern JavaScript. Unlike primitive data        types (such as numbers, strings, booleans, null, undefined, and symbols), objects are more complex and can contain a combination        of primitive data types and reference data types. Here are some key points about objects:
+
+      Definition: An object is an unordered collection of related data, represented as "key: value" pairs. These keys can be variables or functions, known as properties and methods, respectively.
+
+      Reference Data Type: Objects are reference data types. When you assign a value to an object variable, it actually holds a reference or pointer to the memory location where the object is stored.
+
+      Properties and Methods: Objects have properties (variables attached to them) and methods (functions associated with them). For example, if an object represents a student, it might have properties like name, age, address, and methods like updateAddress and updateName.
+
+      Accessing Properties: You can access an object's properties using dot notation (e.g., objectName.propertyName) or bracket notation (e.g., objectName['propertyName']).
+
+      Undefined Properties: Unassigned properties of an object are considered undefined (not null).
+
+      Internal Representation of Objects internally, JavaScript engines represent objects using various data structures. One common representation is the hash table. How it works:
+Hash Table: In a hash table, keys (property names) are hashed to optimize property access. This allows for quick lookup of properties, making object access efficient.

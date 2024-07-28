@@ -1,0 +1,46 @@
+HTTP :
+
+     -stands for hypertext transfer protocol
+     -foundation of data commmunication for the World Wide Web 
+     -it was uses HTTP to fetch resources such as HTML documents, image , and other content from web servers
+     -defines how messages are formatted and transmitted
+     -specifies the actions that web servers should take in response to various commands.
+
+HTTP/1.1 : 
+
+     - first usable version of HTTP was created in 1997
+     -several stages of development, and first version of HTTP was called HTTP/1.1
+     -this verison was still is use on the web
+
+HTTP/2 :
+
+     -2015 a new version of HTTP called HTTP/2 was created
+     -solves serveral problems that creators of HTTP/1.1 did not anticipate 
+     -much faster and more efficient than HTTP/1.1 and content during the loading process
+
+DIFFERENCE BETWEEN HTTP/1.1 AND HTTP/2:
+
+ 1) Binary vs Textual :
+
+     HTTP/1.1 : Text-based format for requests and responses 
+     HTTP/2 : Binary format, which is more efficient for passing and reduces overhead 
+
+ 2)Multiplexing :
+
+     HTTP/1.1 : Requests sequentially, leading to proential delays
+     HTTP/2 : Fully multiplexed, allowing multiple requests and responses to be sent concurrently over a single connection to improves performance
+
+ 3)Parallelism :
+
+     HTTP/1.1 : Requires multiple TCP connections for parallelism 
+     HTTP/2 : Uses a single connection, enabling better resource loading and reducing latency 
+
+ 4)Header Compression :
+
+     HTTP/1.1 : Headers are verbose and add overhead 
+     HTTP/2 : Utilizes header compression, minimizing data size and improving efficiency
+ 
+ 5) Server push :
+
+     HTTP/1.1 : Doesn't support proactive resource pushing 
+     HTTP/2 : Allows servers to push resource (e.g., stylesheets, images) to the client cache before they're explicity requested 
